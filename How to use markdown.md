@@ -20,6 +20,12 @@
 
 위와 같이 heading의 마지막이 #으로 끝난다면 추가로 # 문자를 하나 더 붙여야 에러가 없다.
 
+제목 1
+======
+
+제목 2
+------
+
 ### Bold and italic text
 
 This text is **bold**.
@@ -31,11 +37,43 @@ This text is *italic*.
 This is text is both ***bold and italic***.
 `This is text is both ***bold and italic***.`
 
+이텔릭체는 *별표(asterisks)* 혹은 _언더바(underscore)_를 사용하세요.
+
+두껍게는 **별표(asterisks)** 혹은 __언더바(underscore)__를 사용하세요.
+
+**_이텔릭체_와 두껍게**를 같이 사용할 수 있습니다.
+
+취소선은 ~~물결표시(tilde)~~를 사용하세요.
+
+<u>밑줄</u>은 `<u></u>`를 사용하세요.
+
 ### Blockquotes
 
 > The drought had lasted now for ten million years, and the reign of the terrible lizards had long since ended. Here on the Equator, in the continent which would one day be known as Africa, the battle for existence had reached a new climax of ferocity, and the victor was not yet in sight. In this barren and desiccated land, only the small or the swift or the fierce could flourish, or even hope to survive.
 
 `> The drought had lasted now for ten million years, and the reign of the terrible lizards had long since ended. Here on the Equator, in the continent which would one day be known as Africa, the battle for existence had reached a new climax of ferocity, and the victor was not yet in sight. In this barren and desiccated land, only the small or the swift or the fierce could flourish, or even hope to survive.`
+
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+> 
+> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+> id sem consectetuer libero luctus adipiscing.
+
+> This is the first level of quoting.
+>
+> > This is nested blockquote.
+>
+> Back to the first level.
+
+> ## This is a header.
+> 
+> 1.   This is the first list item.
+> 2.   This is the second list item.
+> 
+> Here's some example code:
+> 
+>     return shell_exec("echo $input | $markdown_script");
 
 ### Lists
 
@@ -96,11 +134,16 @@ This is text is both ***bold and italic***.
 
 ### Links
 
-[README.md](README.md)
+[README.md](README.md "Paper Summit's README")
 
-[How to use Markdown for writing Docs](https://docs.microsoft.com/ko-kr/contribute/how-to-write-use-markdown)
+[How to use Markdown for writing Docs](https://docs.microsoft.com/ko-kr/contribute/how-to-write-use-markdown "How to use Markdown for writing Docs")
 
 ### Code snippets
+
+    codeblock
+    use like this
+    using at least 4 spaces or 1 tab
+
 ```alias
 ...
 your code goes in here
@@ -174,19 +217,9 @@ CREATE TABLE T1 (
 );
 ```
 
-## Docs custom Markdown extensions
+## Gotchas and troubleshooting
 
-> [!NOTE]
-> Information the user should notice even if skimming.
+### Alt text
 
-> [!TIP]
-> Optional information to help a user be more successful.
-
-> [!IMPORTANT]
-> Essential information required for user success.
-
-> [!CAUTION]
-> Negative potential consequences of an action.
-
-> [!WARNING]
-> Dangerous certain consequences of an action.
+![The_New_Feature_Logo](더뉴피쳐_최종-01.png)
+![The\_New\_Feature\_Logo](더뉴피쳐_최종-01.png)
