@@ -1,5 +1,19 @@
 # How to use Markdown for writing Docs
 
+## Markdown이란?
+HTML, XML 등과 같은 Markup 언어의 일종으로, 2004년 John Gruber와 Aaron Swartz가 만들었다.
+다른 플랫폼에서 사용하고 있는 마크업 언어로 쉽게 컨버팅이 가능하고, 문법이 간결한 장점을 가지고 있다.
+
+## Markdown의 장점
+1. 문법이 간결하여 쉽고 빠르게 익히고, 작성할 수 있다.
+2. 텍스트만으로 작성이 가능하고, 용량이 적어 부담이 없다.
+3. 다양한 형태로 컨버팅이 가능하다.
+
+## Markdown의 단점
+1. 표준이 없기 때문에 사용하는 에디터나 페이지에 따라 렌더링된 결과물이 다르다.
+2. 파편화로 인해 확장 문법이 많고, 익혀야하는 문법도 다양하다.
+3. 멀티미디어를 가져오는 방법이 불편하거나 없다.
+
 ## Markdown basics
 ### Headings
 
@@ -78,39 +92,46 @@ This is text is both ***bold and italic***.
 ### Lists
 
 #### Unordered list
-- List item 1
+- List item 1<br>
 `- List item 1`
-- List item 2
+- List item 2<br>
 `- List item 2`
-- List item 3
+- List item 3<br>
 `- List item 3`
 
-- List item 1
+- List item 1<br>
 `- List item 1`
-  - List item A
+  - List item A<br>
   `- List item A`
-  - List item B
+  - List item B<br>
   `- List item B`
-- List item 2
+- List item 2<br>
 `- List item 2`
 
 #### Ordered list
 
-1. First instruction
+1. First instruction<br>
 `1. First instruction`
-1. Second instruction
+1. Second instruction<br>
 `1. Second instruction`
-1. Third instruction
+1. Third instruction<br>
 `1. Third instruction`
 
-0. First instruction
+0. First instruction<br>
 `0. First instruction`
-   1. Sub-instruction
+   1. Sub-instruction<br>
    `1. Sub-instruction`
-   1. Sub-instruction
+   1. Sub-instruction<br>
    `1. Sub-instruction`
-1. Second instruction
+1. Second instruction<br>
 `1. Second instruction`
+
+#### Checklist
+
+> [!div class="checklist"]
+> * List item 1
+> * List item 2
+> * List item 3
 
 ### Tables
 
@@ -222,4 +243,16 @@ CREATE TABLE T1 (
 ### Alt text
 
 ![The_New_Feature_Logo](더뉴피쳐_최종-01.png)
-![The\_New\_Feature\_Logo](더뉴피쳐_최종-01.png)
+
+![Markdown](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4#/media/%ED%8C%8C%EC%9D%BC:Markdown-mark.svg)
+
+
+![alt text for image](../images/Introduction.png)
+
+$$
+susic
+$$
+
+$$
+y = ax + b
+$$
