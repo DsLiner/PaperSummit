@@ -51,16 +51,6 @@ This text is *italic*.
 This is text is both ***bold and italic***.
 `This is text is both ***bold and italic***.`
 
-이텔릭체는 *별표(asterisks)* 혹은 _언더바(underscore)_를 사용하세요.
-
-두껍게는 **별표(asterisks)** 혹은 __언더바(underscore)__를 사용하세요.
-
-**_이텔릭체_와 두껍게**를 같이 사용할 수 있습니다.
-
-취소선은 ~~물결표시(tilde)~~를 사용하세요.
-
-<u>밑줄</u>은 `<u></u>`를 사용하세요.
-
 ### Blockquotes
 
 > The drought had lasted now for ten million years, and the reign of the terrible lizards had long since ended. Here on the Equator, in the continent which would one day be known as Africa, the battle for existence had reached a new climax of ferocity, and the victor was not yet in sight. In this barren and desiccated land, only the small or the swift or the fierce could flourish, or even hope to survive.
@@ -125,13 +115,6 @@ This is text is both ***bold and italic***.
    `1. Sub-instruction`
 1. Second instruction<br>
 `1. Second instruction`
-
-#### Checklist
-
-> [!div class="checklist"]
-> * List item 1
-> * List item 2
-> * List item 3
 
 ### Tables
 
@@ -250,7 +233,7 @@ CREATE TABLE T1 (
 ![alt text for image](../images/Introduction.png)
 
 $$
-susic
+y = ax + b
 $$
 
 $$
