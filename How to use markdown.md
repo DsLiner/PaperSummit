@@ -1,4 +1,4 @@
-# How to use Markdown for writing Docs
+# How to use Markdown
 
 ## Markdown이란?
 HTML, XML 등과 같은 Markup 언어의 일종으로, 2004년 John Gruber와 Aaron Swartz가 만들었다.
